@@ -1,0 +1,17 @@
+digitaltailor-website/
+│   package.json
+│   astro.config.mjs
+│   tsconfig.json
+│   README.md
+│
+├── public/                 # Static assets (logo, images, favicon, etc.)
+│   └── favicon.ico
+│
+├── src/
+│   ├── components/         # Navbar, Footer, etc.
+│   ├── content/            # Blog/Pages (Markdown)
+│   ├── layouts/            # Layout files
+│   ├── pages/              # Main pages
+│   │   ├── index.astro     # Home page
+│   │   └── about.astro     # About page
+│   └── styles/             # CSS / Tailwind (optional)
